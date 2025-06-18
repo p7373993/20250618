@@ -19,3 +19,4 @@ df.loc[np.random.choice(n, 200, replace=False), "income"] = np.nan
 df.loc[np.random.choice(n, 100, replace=False), "job"] = np.nan
 
 df.to_csv("train.csv", index=False)
+#test
